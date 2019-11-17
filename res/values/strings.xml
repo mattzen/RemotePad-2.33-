@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RemotePadv1Activity!</string>
+    <string name="ipaddress">192.168.1.103</string>
+    <string name="port">51315</string>    
+        
+    <string name="app_name">RemotePad v1.4.2 (BETA)</string>    
+        
+    <string name="touchsensitivity">touch sensitivity</string>    
+        
+    <string name="sensorsensitivity">sensor sensitivity</string>
+
+</resources>

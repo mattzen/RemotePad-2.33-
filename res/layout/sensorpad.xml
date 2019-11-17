@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/trzymajacy12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:orientation="horizontal" >
+
+     <LinearLayout
+            android:id="@+id/lclickArea2"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+      </LinearLayout>
+
+
+       <LinearLayout
+                android:id="@+id/trzymajacy22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:orientation="vertical" >
+
+		<LinearLayout
+		    android:id="@+id/forwardArea2"
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:layout_weight="0.02"
+		    android:orientation="horizontal" >
+          
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/scrollArea2"
+		    android:layout_width="match_parent"
+		    android:layout_height="100dp"
+		    android:layout_weight="0.16"
+		    android:orientation="horizontal" >
+          
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/backArea2"
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:layout_weight="0.02"
+		    android:orientation="horizontal" >
+          
+		</LinearLayout>
+
+		    
+       </LinearLayout>
+       
+             <LinearLayout
+               android:id="@+id/rclickArea2"
+               android:layout_width="125dp"
+               android:layout_height="match_parent"
+               android:orientation="horizontal" >
+          
+       </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sensortouchArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.49"
+        android:orientation="vertical" >
+       
+    </LinearLayout>
+
+</LinearLayout>

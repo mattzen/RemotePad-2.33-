@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/trzymajacy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:orientation="horizontal" >
+
+     <LinearLayout
+            android:id="@+id/lclickArea"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+      </LinearLayout>
+
+
+       <LinearLayout
+                android:id="@+id/trzymajacy2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:orientation="vertical" >
+
+		<LinearLayout
+		    android:id="@+id/forwardArea"
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:layout_weight="0.15"
+		    android:orientation="horizontal" >
+          
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/scrollArea"
+		    android:layout_width="match_parent"
+		    android:layout_height="100dp"
+		    android:layout_weight="0.16"
+		    android:orientation="horizontal" >
+          
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/backArea"
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:layout_weight="0.23"
+		    android:orientation="horizontal" >
+          
+		</LinearLayout>
+
+		    
+       </LinearLayout>
+       
+             <LinearLayout
+               android:id="@+id/rclickArea"
+               android:layout_width="125dp"
+               android:layout_height="match_parent"
+               android:orientation="horizontal" >
+          
+       </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/moveArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.56"
+        android:orientation="vertical" >
+       
+    </LinearLayout>
+
+</LinearLayout>
